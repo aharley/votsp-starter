@@ -28,25 +28,21 @@ Then upload the resulting zip to the [evaluation server](https://eu.aihub.ml/com
 
 ## Included trackers
 
-### AllTracker
-
-[AllTracker](https://github.com/aharley/alltracker) (Harley et al., ICCV 2025) is the challenge baseline. It tracks points using a memory-efficient sliding-window flow approach.
+Dependencies (required for both trackers):
 
 ```
 pip install torch torchvision opencv-python
 ```
 
-Weights are downloaded automatically from HuggingFace on first run. Works on both CPU and GPU.
+### AllTracker
+
+[AllTracker](https://github.com/aharley/alltracker) (Harley et al., ICCV 2025) is the challenge baseline. Weights are downloaded automatically from HuggingFace on first run. Works on both CPU and GPU.
 
 Wrapper: `alltracker_tracker.py`
 
 ### CoTracker3
 
-[CoTracker3](https://github.com/facebookresearch/co-tracker) (Karaev et al., NeurIPS 2024) is another strong point tracker.
-
-```
-pip install torch torchvision opencv-python
-```
+[CoTracker3](https://github.com/facebookresearch/co-tracker) (Karaev et al., NeurIPS 2024) is another strong point tracker. Weights are downloaded automatically from HuggingFace on first run. Works on both CPU and GPU.
 
 Wrapper: `cotracker3_tracker.py`
 
