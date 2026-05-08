@@ -28,9 +28,9 @@ Then upload the resulting zip to the [evaluation server](https://eu.aihub.ml/com
 
 ## Included trackers
 
-### AllTracker (recommended)
+### AllTracker
 
-[AllTracker](https://github.com/aharley/alltracker) (Harley et al., ICCV 2025) is the challenge baseline. It tracks points using a memory-efficient sliding-window flow approach and works well on long, high-resolution videos.
+[AllTracker](https://github.com/aharley/alltracker) (Harley et al., ICCV 2025) is the challenge baseline. It tracks points using a memory-efficient sliding-window flow approach.
 
 ```
 pip install torch torchvision opencv-python
@@ -42,7 +42,7 @@ Wrapper: `alltracker_tracker.py`
 
 ### CoTracker3
 
-[CoTracker3](https://github.com/facebookresearch/co-tracker) is a simpler alternative that is easier to adapt. It generally performs below AllTracker on this benchmark.
+[CoTracker3](https://github.com/facebookresearch/co-tracker) (Karaev et al., NeurIPS 2024) is another strong point tracker.
 
 ```
 pip install torch torchvision opencv-python
