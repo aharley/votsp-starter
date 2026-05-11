@@ -7,7 +7,7 @@ Starter kit for the [VOTSp2026 Point Tracking Challenge](https://www.votchalleng
 ```bash
 # 1. Install the VOT toolkit and download the dataset
 pip install vot-toolkit
-vot initialize vots2026/votsp --workspace ~/votsp_workspace
+vot initialize vots2026/point --workspace ~/votsp_workspace
 
 # 2. Clone this repo
 git clone https://github.com/aharley/votsp-starter
